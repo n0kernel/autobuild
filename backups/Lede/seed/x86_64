@@ -1,0 +1,86 @@
+CONFIG_TARGET_mediatek=y
+CONFIG_TARGET_mediatek_filogic=y
+CONFIG_TARGET_mediatek_filogic_DEVICE_cetron_ct3003=y
+CONFIG_GNUTLS_ALPN=y
+CONFIG_GNUTLS_ANON=y
+CONFIG_GNUTLS_DTLS_SRTP=y
+CONFIG_GNUTLS_HEARTBEAT=y
+CONFIG_GNUTLS_OCSP=y
+CONFIG_GNUTLS_PSK=y
+CONFIG_PACKAGE_attr=y
+CONFIG_PACKAGE_autosamba=y
+CONFIG_PACKAGE_avahi-dbus-daemon=y
+CONFIG_PACKAGE_cdnspeedtest=m
+CONFIG_PACKAGE_dbus=y
+CONFIG_PACKAGE_https-dns-proxy=m
+CONFIG_PACKAGE_kmod-crypto-kpp=y
+CONFIG_PACKAGE_kmod-crypto-lib-chacha20=y
+CONFIG_PACKAGE_kmod-crypto-lib-chacha20poly1305=y
+CONFIG_PACKAGE_kmod-crypto-lib-curve25519=y
+CONFIG_PACKAGE_kmod-crypto-lib-poly1305=y
+# CONFIG_PACKAGE_kmod-ipt-offload is not set
+# CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
+# CONFIG_PACKAGE_kmod-nf-flow is not set
+# CONFIG_PACKAGE_kmod-tcp-bbr is not set
+CONFIG_PACKAGE_kmod-udptunnel4=y
+CONFIG_PACKAGE_kmod-udptunnel6=y
+CONFIG_PACKAGE_kmod-wireguard=y
+CONFIG_PACKAGE_libatomic=y
+CONFIG_PACKAGE_libattr=y
+CONFIG_PACKAGE_libavahi-client=y
+CONFIG_PACKAGE_libavahi-dbus-support=y
+CONFIG_PACKAGE_libcares=m
+CONFIG_PACKAGE_libdaemon=y
+CONFIG_PACKAGE_libdbus=y
+CONFIG_PACKAGE_libexpat=y
+CONFIG_PACKAGE_libgmp=y
+CONFIG_PACKAGE_libgnutls=y
+CONFIG_PACKAGE_libncurses=y
+CONFIG_PACKAGE_libnettle=y
+CONFIG_PACKAGE_libpopt=y
+CONFIG_PACKAGE_libreadline=y
+CONFIG_PACKAGE_libtasn1=y
+CONFIG_PACKAGE_libtirpc=y
+CONFIG_PACKAGE_liburing=y
+# CONFIG_PACKAGE_libuv is not set
+# CONFIG_PACKAGE_libwebsockets-full is not set
+CONFIG_PACKAGE_luci-app-cloudflarespeedtest=m
+CONFIG_PACKAGE_luci-app-https-dns-proxy=m
+# CONFIG_PACKAGE_luci-app-nlbwmon is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
+CONFIG_PACKAGE_luci-app-samba4=y
+# CONFIG_PACKAGE_luci-app-ttyd is not set
+# CONFIG_PACKAGE_luci-app-turboacc is not set
+# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_BBR_CCA is not set
+# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_OFFLOADING is not set
+# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_PDNSD is not set
+# CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
+# CONFIG_PACKAGE_luci-app-upnp is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Hysteria is not set
+# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Libev_Server is not set
+# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Trojan is not set
+# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray is not set
+# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray_plugin is not set
+CONFIG_PACKAGE_luci-app-wireguard=y
+CONFIG_PACKAGE_luci-compat=m
+CONFIG_PACKAGE_luci-i18n-cloudflarespeedtest-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-https-dns-proxy-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-samba4-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-wireguard-zh-cn=y
+CONFIG_PACKAGE_luci-proto-wireguard=y
+CONFIG_PACKAGE_luci-theme-design=m
+# CONFIG_PACKAGE_miniupnpd is not set
+# CONFIG_PACKAGE_nlbwmon is not set
+# CONFIG_PACKAGE_pdnsd-alt is not set
+CONFIG_PACKAGE_terminfo=y
+# CONFIG_PACKAGE_ttyd is not set
+# CONFIG_PACKAGE_vsftpd-alt is not set
+CONFIG_PACKAGE_wireguard-tools=y
+CONFIG_PACKAGE_wsdd2=y
+CONFIG_SAMBA4_SERVER_AVAHI=y
+CONFIG_SAMBA4_SERVER_NETBIOS=y
+CONFIG_SAMBA4_SERVER_VFS=y
+CONFIG_SAMBA4_SERVER_WSDD2=y
+# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE_CM is not set
